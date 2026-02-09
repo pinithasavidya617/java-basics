@@ -1,6 +1,7 @@
 public class CastingExamples { //Use pascal Naming Convention
     public static void main(String[] args) {
         castingDemo();
+        explicitCasting();
     }
 
     public static void castingDemo(){
@@ -24,5 +25,16 @@ public class CastingExamples { //Use pascal Naming Convention
 
     public static void explicitCasting(){
         double doubleVal = 22.3434;
+
+        int intVal;
+
+        intVal = (int) doubleVal; //Explicit casting double -> int
+        System.out.println(intVal);
+
+        int val2 = 24455;
+        byte val3 = (byte) val2;
+        System.out.println(val3);
+
+        short val4 = (short) val2;
     }
 }
