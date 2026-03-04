@@ -1,3 +1,5 @@
+package Day1;
+
 public class Main {
     public static void test() {
         System.out.println("Hello World");

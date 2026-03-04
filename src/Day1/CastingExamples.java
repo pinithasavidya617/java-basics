@@ -1,3 +1,5 @@
+package Day1;
+
 public class CastingExamples { //Use pascal Naming Convention
     public static void main(String[] args) {
         castingDemo();
