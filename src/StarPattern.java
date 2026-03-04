@@ -7,7 +7,8 @@ public class StarPattern {
 //        pattern3();
 //        userPattern();
 //        pyramid();
-        invertedPyramid();
+//        invertedPyramid();
+        diamond();
     }
 
 
@@ -81,7 +82,6 @@ public class StarPattern {
     }
 
     public static void invertedPyramid(){
-        int n = 5;
 
         for(int i = 5; i >= 1; i--) {
 
@@ -94,6 +94,36 @@ public class StarPattern {
             System.out.println();
         }
 
+    }
+
+    public static void diamond() {
+        int n = 5;
+
+        for(int i = 1; i <= n; i++) {
+
+            for(int j = i; j < n; j++) {
+                System.out.print(" ");
+            }
+
+            for(int k = 1; k <= (2*i - 1); k++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+
+        for(int i = n-1; i >= 1; i--) {
+
+            for(int j = n; j > i; j--) {
+                System.out.print(" ");
+            }
+
+            for(int k = 1; k <= (2*i - 1); k++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
     }
 
 }
