@@ -46,16 +46,18 @@ public class StarPattern {
         System.out.println("How many rows? ");
         int rows = scanner.nextInt();
 
-        System.out.println("How many columns? ");
-        int columns = scanner.nextInt();
+//        System.out.println("How many columns? ");
+//        int columns = scanner.nextInt();
 
-        for(int i = 1; i <= rows; i ++){     //rows
-            for ( int j = 1; j <= columns; j++){  // columns
+        for(int i = 0; i <= rows; i ++){     //rows
+            for ( int j = 0; j <= i; j++){  // columns
                 System.out.print("*");
             }
             System.out.println();
 
         }
+
+        scanner.close();
 
     }
 }
