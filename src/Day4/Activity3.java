@@ -31,14 +31,17 @@ public class Activity3 {
     }
 
     public static int findMaximum(int a, int b, int c){
-        if (a > b){
-            if (a > c){
-                return a;
-            }else {
-                return c;
-            }
-        }else
-            return b;
+        int max = 0;
+        if (a > b) {
+            max = a;
+        }else {
+            max = b;
+        }
+        if (c > max){
+            max = c;
+        }
+
+        return max;
 
     }
 
