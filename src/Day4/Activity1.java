@@ -9,6 +9,7 @@ public class Activity1 {
 
     public static int getNumber(){
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
         return sc.nextInt();
     }
 
@@ -21,6 +22,6 @@ public class Activity1 {
     }
 
     public static void displaySum(int sum){
-        System.out.println(sum);
+        System.out.println("Sum: " + sum);
     }
 }
