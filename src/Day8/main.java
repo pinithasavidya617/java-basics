@@ -10,9 +10,9 @@ public class main {
 
     public static void main(String[] args) {
 
-        //linkedList();
-        //linkedListQueue();
-        //arrayDeque();
+//        linkedList();
+//        linkedListQueue();
+//        arrayDeque();
         blockingQueue();
     }
 
